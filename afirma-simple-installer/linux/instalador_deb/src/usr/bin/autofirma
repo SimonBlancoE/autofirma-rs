@@ -1,0 +1,2 @@
+#!/bin/bash
+java -Djdk.tls.maxHandshakeMessageSize=65536 -jar /usr/lib/Autofirma/autofirma.jar "$@"
